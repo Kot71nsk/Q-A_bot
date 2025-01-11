@@ -7,7 +7,7 @@ from database import create_table, get_quiz_index, update_quiz_index, save_resul
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '7821801527:AAHTJ5h26BoE-4D8CYyuLPBSgCulhjs_u2Q'
+API_TOKEN = ''
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
